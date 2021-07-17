@@ -1,0 +1,198 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+.container{
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* fonts-style */
+
+/* header-styles */
+header {
+    width: 100%;
+    height: 223px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.nav-block {
+    width: 810px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.navigation ul {
+    width: 684px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.burger-bar {
+    display: none;
+}
+.menu-list {
+    display: none;
+}
+/* section-1-styles */
+.bg-image {
+    max-width: 1640px;
+    width: 100%;
+    height: 608px;
+    margin: 0 auto;
+    background-image: url('../images/map.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/* section-2-styles */
+form {
+    /* max-width: 1640px;
+    width: 100%; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.form-input,
+.massage {
+    max-width: 730px;
+    width: 100%;
+    height: 69px;
+    border: none;
+}
+.button {
+    width: 150px;
+    height: 52px;
+    background-color: #2E2E2E;
+    color: #fff;
+    margin: 40px 0 222px;
+}
+.label {
+    margin: 25px 0 11px;
+}
+/* footer-style */
+footer {
+    width: 100%;
+    height: 207px;
+    background-color: #2E2E2E;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.footer-contact {
+    width: 178px;
+}
+.footer-icon {
+    width: 122px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+/* fonts-style */
+.icon-logo {
+    font-size: 95px;
+    color: black;
+}
+.logo,
+.footer-contact h2,
+.footer-contact a {
+    color: #fff;
+}
+.fa-search {
+    font-size: 25px;
+    color: #707070;
+}
+.navigation ul li a,
+.footer-contact h2, a {
+    font-family: 'ArchyEDT-Bold';
+}
+.navigation ul li a,
+.footer-contact h2 {
+    font-size: 20px;
+}
+.navigation ul li a{
+    color: #707070;
+}
+.button {
+    font-size: 21px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+.footer-contact a {
+    font-size: 13px;
+}
+.fa-facebook,
+.icon-instagram-1 {
+    font-size: 43px;
+    color: #fff;
+}
+.form-input::-webkit-input-placeholder {
+    font-family: 'Myriad Web Pro';
+    font-size: 23px;
+}
+.form-input::-moz-placeholder {
+    font-family: 'Myriad Web Pro';
+    font-size: 23px;
+}
+.form-input:-ms-input-placeholder {
+    font-family: 'Myriad Web Pro';
+    font-size: 23px;
+}
+.form-input::-ms-input-placeholder {
+    font-family: 'Myriad Web Pro';
+    font-size: 23px;
+}
+.label,
+.form-input::placeholder {
+    font-family: 'Myriad Web Pro';
+    font-size: 23px;
+}
